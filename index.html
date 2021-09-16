@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>holoclock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="clock">
+        <p class="clock-date"></p>
+        <p class="clock-time"></p>
+    </div> 
+    </div>
+      <div class="schedule">
+        <div class="pop-box">
+            <label for="popup-on"><label for="popup-on"><div class="btn-open"><img src="https://i0.wp.com/ai-catcher.com/wp-content/uploads/icon_15-1.png?fit=567%2C567&ssl=1" alt="" width="100px" height="60%"></div></label>
+            <input type="checkbox" id="popup-on">
+            <div class="popup">
+              <label for="popup-on" class="icon-close">×</label>
+              <div class="popup-content">
+                 <!-- ポップアップの中身 -->
+                 <iframe  class= "frame_center" src="https://hololive.hololivepro.com/schedule/" width="1280px" height="720px" id="popup"></iframe>                  
+                 <!-- ./ポップアップの中身　ここまで -->
+              </div>
+              <label for="popup-on"><div class="btn-close">閉じる</div></label>
+            </div>
+          </div>
+
+          <div class="pop-box-2">
+            <label for="popup-on-2"><label for="popup-on-2"><div class="btn-open-2"><img src="https://everydayicons.jp/wp/wp-content/themes/everydayicons/icons/png/ei-music.png" alt="" width="100px" height="60%"></div></label>
+            <input type="checkbox" id="popup-on-2">
+            <div class="popup-2">
+              <label for="popup-on-2" class="icon-close-2">×</label>
+              <div class="popup-content-2">
+                 <!-- ポップアップの中身 -->
+                 <iframe  class= "frame_center-2" src="https://holodex.net/music" width="1280px" height="720px" id="popup-2"></iframe>                  
+                 <!-- ./ポップアップの中身　ここまで -->
+              </div>
+              <label for="popup-on-2"><div class="btn-close-2">閉じる</div></label>
+            </div>
+          </div>
+
+          <div class="pop-box-3">
+            <label for="popup-on-3"><label for="popup-on-3"><div class="btn-open-3"><img src="https://icon-pit.com/wp-content/uploads/2020/12/multi-monitor_15155-300x300.png" alt="" width="100px" height="60%" ></div></label>
+            <input type="checkbox" id="popup-on-3">
+            <div class="popup-3">
+              <label for="popup-on-3" class="icon-close-3">×</label>
+              <div class="popup-content-3">
+                 <!-- ポップアップの中身 -->
+                 <iframe  class= "frame_center-3" src="https://holodex.net/multiview" width="1280px" height="720px" id="popup-3"></iframe>                  
+                 <!-- ./ポップアップの中身　ここまで -->
+              </div>
+              <label for="popup-on-3"><div class="btn-close-3">閉じる</div></label>
+            </div>
+          </div>
+
+          <div class="pop-box-4">
+            <label for="popup-on-4"><label for="popup-on-4"><div class="btn-open-4"><img src="https://icon-pit.com/wp-content/uploads/2018/10/play_icon_764-300x300.png" alt="" width="100px" height="60%" ></div></label>
+            <input type="checkbox" id="popup-on-4">
+            <div class="popup-4">
+              <label for="popup-on-4" class="icon-close-4">×</label>
+              <div class="popup-content-4">
+                 <!-- ポップアップの中身 -->
+                 <iframe  class= "frame_center-4" src="https://holodex.net/channel" width="1280px" height="720px" id="popup-4"></iframe>                  
+                 <!-- ./ポップアップの中身　ここまで -->
+              </div>
+              <label for="popup-on-4"><div class="btn-close-4">閉じる</div></label>
+            </div>
+          </div>
+      </div>
+      <img src="https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1440,w_720,f_auto,q_auto/1369026/hololive_logo_jh6ukw.png" width="150px" height="40px" style="top: 94%;right: 0%; position: absolute;">
+    <script src="javascript.js"></script>
+</body>
+</html>
